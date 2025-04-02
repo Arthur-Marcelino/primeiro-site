@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra o Mundo dos Gatos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-body h3 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .card-body p {
+            color: #7f8c8d;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Descubra o Mundo dos Gatos</h1>
+        <p>Explore tudo sobre esses felinos incríveis!</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src= "imagens/persa.jpg" alt="Gato Fofinho">
+            <div class="card-body">
+                <h3>Gato Persa</h3>
+                <p>Conhecidos por sua pelagem longa e personalidade calma, os gatos persas são ótimos companheiros.</p>
+
+                <a target="_blank" href="gatopersa..html" class="btn"> saiba mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src= "imagens/bengal.jpg" alt="Gato Bengal">
+            <div class="card-body">
+                <h3>Gato Bengal</h3>
+                <p>Com uma pelagem que lembra a de um leopardo, o Bengal é enérgico e muito inteligente.</p>
+                <a target="_blank" href="gatobengal.html"> saiba mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagens/Maine-Coon.jpg" alt="Gato Maine Coon">
+            <div class="card-body">
+                <h3>Gato Maine Coon</h3>
+                <p>Com um tamanho impressionante e uma natureza amigável, o Maine Coon é um dos maiores gatos domésticos.</p>
+                <a target="_blank" href="gatomaine.html">saiba mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src= "imagens/siames.webp" alt="Gato Siamês">
+            <div class="card-body">
+                <h3>Gato Siamês</h3>
+                <p>Conhecido por seu temperamento extrovertido e pelos olhos azuis brilhantes, o Siamês é um gato muito vocal.</p>
+                <a target="_blank" href="gatosiames.html">saiba mais</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mundo dos Gatos | Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
